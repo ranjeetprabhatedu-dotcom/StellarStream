@@ -16,7 +16,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "node init && tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
     "test": "vitest run",
     "docs": "typedoc src/index.ts"
   },
